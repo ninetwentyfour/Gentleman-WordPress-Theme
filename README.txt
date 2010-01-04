@@ -1,4 +1,4 @@
-Travis Berry Wordpress Theme by Travis Berry is licensed under a Creative Commons Attribution 3.0 United States License.
+Gentleman Wordpress Theme by Travis Berry is licensed under a Creative Commons Attribution 3.0 United States License.
 
 http://gentleman.travisberry.com
 
