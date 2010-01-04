@@ -183,7 +183,7 @@ if(!aa_print_html($AA_STATUS_CODE)){
 
 
 <?php get_header(); ?>
-<div id="content"><div id="pageicon"><a href="<?php bloginfo('url'); ?>"><img src="http://johnmeyercreative.com/wp-content/themes/jmeyer/images/navpics/megaphone.png" align="left" class="workiconpic" width="50px" height="100px" /></a><h1><?php bloginfo('name'); ?></h1></div>
+<div id="content"><div id="pageicon"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/themes/gentelmen/headerimage.png" align="left" class="workiconpic" width="38px" height="100px" /></a><h1><?php bloginfo('name'); ?></h1></div>
 
 <div id="contentbox">
 					<div id="contentbox">

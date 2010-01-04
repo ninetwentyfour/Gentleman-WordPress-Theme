@@ -6,19 +6,7 @@ Version: 1.0
 Author: Travis Berry
 Author URI: http://travisberry.com
 */
-@font-face {
-font-family: "Bodoni";
-    
-    src: local("BOOGNN"), url("fonts/Bodoni.ttf") format('truetype');
-}
-@font-face {
-font-family: "Aller";
-    
-    src: local("BOOGNN"), url("fonts/Aller.ttf") format('truetype');
-}
-.chunk{
- font-family: "Bodoni", "Aller" ;   
-}
+
 /* reset */
 body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -75,7 +63,7 @@ body{background-color:#f5e8d6;
 	z-index:-30;
 }
 h1{
-	font-family:"Bodoni", serif;
+	font-family:"Didot", serif;
 	color:#534b41;
 	padding-top:30px;
 	padding-bottom:10px;
@@ -87,11 +75,13 @@ h1 a{
 }
 h2{
 	padding-top:20px;
-	font-family:"Bodoni", serif;
+	font-family:"Didot", serif;
+	font-size:16px;
+	font-weight:500;
 }
 h3{
 	padding-top:20px;
-	font-family:"Bodoni", serif;
+	font-family:"Didot", serif;
 }
 p{
 	padding-top:20px;
@@ -119,7 +109,7 @@ a:visited:hover{
 }
 #main{width:800px;
 	margin:auto auto;
-	font-family:"Aller", sans-serif;
+	font-family:"Myriad Pro", sans-serif;
 	color:#534b41;
 	/*z-index:-20;*/
 	text-align:justify;
@@ -145,7 +135,7 @@ a:visited:hover{
 	/*z-index:20;*/
 	position:relative;
 	background:none;
-	font-family:"Helvetica", sans-serif;
+	font-family:"Myriad Pro", sans-serif;
 	
 }
 #navigation a{
@@ -196,7 +186,7 @@ width:760px;
 	margin:auto auto;
 	padding:20px;
 	font-size:11px;
-	font-family:"Bodoni", sans-serif;
+	font-family:"Myriad Pro", sans-serif;
 	color:#6f6456;
 	
 }
@@ -346,7 +336,7 @@ textarea {
     border:none;
  background-color: #fff;
  color: #333;
-   font-family:"Bodoni", sans-serif;
+   font-family:"Myriad Pro", sans-serif;
     font-size:1em;
     border:1px dotted #6f6456;
 }
@@ -356,7 +346,7 @@ input {
     border:none;
  background-color: #fff;
     color: #333;
-    font-family:"Bodoni", sans-serif;
+    font-family:"Myriad Pro", sans-serif;
     font-size:1em;
     border:1px dotted #6f6456;
 }
@@ -377,7 +367,7 @@ input:focus{
     -moz-transition: all 0.2s ease-in;
     background-color:#f0f0f0;
     color: #333;
-    font-family:"Bodoni", sans-serif;
+    font-family:"Myriad Pro", sans-serif;
     border:1px dotted #6f6456;
 }
 textarea:focus{
@@ -385,28 +375,28 @@ textarea:focus{
     -moz-transition: all 0.2s ease-in;
     background-color:#f0f0f0;
     color: #333;
-    font-family:"Bodoni", sans-serif;
+    font-family:"Myriad Pro", sans-serif;
     border:1px dotted #6f6456;
 }
 /* contact form */
 /*selectors*/
 ::-moz-selection{
-	background-color:#333;
-	color:#eee;
+	background-color:#d94112;
+	color:#f8f1e7;
 }
 
 ::selection {
-	background-color:#333;
-	color:#eee;
+	background-color:#d94112;
+	color:#f8f1e7;
 }
 a::-moz-selection{
-	background-color:#333;
-	color:#f79736;
+	background-color:#d94112;
+	color:#534b41;
 }
 
 a::selection {
-	background-color:#333;
-	color:#f79736;
+	background-color:#d94112;
+	color:#534b41;
 }
 
 /*selectors*/
