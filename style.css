@@ -454,3 +454,16 @@ opacity:1;
     -moz-transition: all 0.5s ease-in;
 
 }
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
