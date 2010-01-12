@@ -10,6 +10,8 @@
 			
 					<div class="entry">
 						<?php the_content('Read more...'); ?></div></div>
+					<p><?php wp_link_pages(); ?></p>
+
 					<p><?php the_tags(); ?></p>
                                         <div id="comentss"><?php comments_template(); ?></div>
 <?php endwhile; ?><br /><br />
