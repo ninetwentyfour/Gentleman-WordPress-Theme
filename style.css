@@ -242,11 +242,21 @@ width:760px;
 	padding-top:0px;
 	margin-top:-20px;
 }
+#sides li{
+	list-style:none;
+	list-style-position:inside;
+	padding-top:0px;
+}
 #sides ul ul{
 	padding-top:0px;
 	margin-top:20px;
 }
 #sides li li{
+	list-style:square;
+	list-style-position:inside;
+	padding-top:10px;
+}
+li{
 	list-style:square;
 	list-style-position:inside;
 	padding-top:10px;
