@@ -1,8 +1,9 @@
+WARNING - This theme is really old and no longer maintained. Use at own risk.
+==== 
+
 Gentleman Wordpress Theme by Travis Berry is licensed under a Creative Commons Attribution 3.0 United States License.
 
 http://gentleman.travisberry.com
-
-
 
 This theme is available for use for personal or commercial purposes. Please consider giving a link back to http://www.travisberry.com somewhere on your site.
 
